@@ -8,5 +8,6 @@
   text-align: right;
   text-decoration: none;
   color: #ffffff;
-  margin-left: 18px;
+  margin-inline-start: 18px;
+  margin-block-end: 18px;
 }
