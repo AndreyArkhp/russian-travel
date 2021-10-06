@@ -4,6 +4,6 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   min-width: 78px;
 }
