@@ -6,4 +6,5 @@
   justify-content: space-between;
   align-items: center;
   min-width: 78px;
+  align-self: center;
 }

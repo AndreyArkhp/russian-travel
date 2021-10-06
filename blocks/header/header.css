@@ -2,5 +2,5 @@
   display: flex;
   justify-content: space-between;
   min-height: 100px;
-  align-items: center;
+  align-items: flex-start;
 }
