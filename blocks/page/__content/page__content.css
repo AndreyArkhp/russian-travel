@@ -1,4 +1,6 @@
 .page__content {
-  margin: 0 auto;
-  width: 1184px;
+  box-sizing: border-box;
+  margin: auto;
+  width: calc(100vw - 96px);
+  max-width: 1184px;
 }
