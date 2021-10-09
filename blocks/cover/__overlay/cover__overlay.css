@@ -7,10 +7,9 @@
   height: 740px;
   opacity: 0.3;
   z-index: 1;
+  transition: opacity 0.5s;
 }
 
-/* @media screen and (max-width: 1025px) {
-  .cover__overlay {
-    left: -48px;
-  }
-} */
+.cover__overlay:hover {
+  opacity: 0.8;
+}
