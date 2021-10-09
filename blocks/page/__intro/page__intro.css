@@ -1,3 +1,10 @@
 .page__intro {
-  margin-inline-start: 100px;
+  margin-inline-start: calc((100vw / 256 - 4px) * 100);
 }
+
+@media screen and (min-width: 1280px) {
+  .page__intro {
+    margin-inline-start: 100px;
+  }
+}
+

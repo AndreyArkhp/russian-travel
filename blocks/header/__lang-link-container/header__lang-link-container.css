@@ -4,7 +4,12 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   min-width: 78px;
   align-self: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__lang-link-container {
+    align-self: flex-end;
+  }
 }

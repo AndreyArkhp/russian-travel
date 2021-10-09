@@ -4,3 +4,9 @@
   min-height: 100px;
   align-items: flex-start;
 }
+
+@media screen and (max-width: 1279px) {
+  .header {
+    min-height: 52px;
+  }
+}
