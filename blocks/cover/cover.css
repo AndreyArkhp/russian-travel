@@ -1,0 +1,17 @@
+.cover {
+  background-image: url(../../images/trains.jpg);
+  background-size: cover;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 1025px) {
+  .cover {
+    width: 100vw;
+    left: -48px;
+  }
+}

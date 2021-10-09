@@ -3,4 +3,5 @@
   grid-template-rows: repeat(5, auto);
   grid-template-columns: 1fr;
   row-gap: 92px;
+  margin-block-end: 92px;
 }
