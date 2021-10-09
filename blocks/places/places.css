@@ -1,1 +1,9 @@
+.places {
+  width: calc(100% - (100vw / 256 - 4px) * 200);
+}
 
+@media (min-width: 1280px) {
+  .places {
+    width: 984px;
+  }
+}
