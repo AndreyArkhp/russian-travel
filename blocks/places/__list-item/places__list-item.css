@@ -1,0 +1,7 @@
+.places__list-item {
+  margin-block-end: 80px;
+}
+
+.places__list-item:last-of-type {
+  margin: 0;
+}
