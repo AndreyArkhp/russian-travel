@@ -1,0 +1,10 @@
+.footer__link {
+  margin-inline-end: 18px;
+  display: inline-block;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+}
