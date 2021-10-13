@@ -2,8 +2,20 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .page__photo-grid {
-    margin: 0 calc((100vw / 256 - 2px) * 24);
+    margin: 0 48px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .page__photo-grid {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .page__photo-grid {
+    margin: 0 16px;
   }
 }
