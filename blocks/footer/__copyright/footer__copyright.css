@@ -7,6 +7,12 @@
   text-align: right;
 }
 
+@media screen and (max-width: 720px) {
+  .footer__copyright {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 560px) {
   .footer__copyright {
     line-height: 14px;

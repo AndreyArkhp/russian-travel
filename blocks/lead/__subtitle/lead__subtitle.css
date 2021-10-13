@@ -9,8 +9,23 @@
   line-height: 36px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .lead__subtitle {
     margin: 0 auto 56px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .lead__subtitle {
+    font-size: calc(100vw / 20);
+    line-height: calc(100vw / 20 + 6px);
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto 40px;
   }
 }

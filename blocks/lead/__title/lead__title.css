@@ -8,3 +8,18 @@
   margin: 0 auto 32px;
   max-width: 720px;
 }
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    font-size: calc(100vw / 8);
+    line-height: calc(100vw / 8 + 4px);
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 auto 16px;
+  }
+}

@@ -9,8 +9,14 @@
   color: #fff;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 770px) {
   .lead__caption {
-    margin-inline-start: calc((100vw - 1024px) * -1 / 32 * 3);
+    margin-inline-start: 24px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .lead__caption {
+    margin-inline-start: 16px;
   }
 }
