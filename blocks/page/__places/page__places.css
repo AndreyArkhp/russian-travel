@@ -3,3 +3,9 @@
     margin: 0 calc((100% / 256 - 2px) * 24);
   }
 }
+
+@media screen and (max-width: 770px) {
+  .page__places {
+    margin-block-end: 2px;
+  }
+}

@@ -1,15 +1,15 @@
 .page__intro {
-  margin-inline-start: calc((100vw / 256 - 4px) * 100);
+  margin-inline-start: 100px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1025px) {
   .page__intro {
-    margin-inline-start: 100px;
+    margin-inline-start: 48px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 770px) {
   .page__intro {
-    margin-inline-start: calc((100vw / 256 - 2px) * 24);
+    margin: 0 24px;
   }
 }

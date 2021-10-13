@@ -9,7 +9,7 @@
   color: #fff;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 700px) {
   .footer__link {
     margin-inline-end: 0;
     font-size: 24px;
