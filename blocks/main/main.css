@@ -5,3 +5,15 @@
   row-gap: 92px;
   margin-block-end: 92px;
 }
+
+@media screen and (max-width: 1025px) {
+  .main {
+    margin-block-end: 97px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .main {
+    margin-block-end: 88px;
+  }
+}

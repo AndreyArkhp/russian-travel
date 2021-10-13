@@ -1,0 +1,9 @@
+.page__photo-grid {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__photo-grid {
+    margin: 0 calc((100vw / 256 - 2px) * 24);
+  }
+}

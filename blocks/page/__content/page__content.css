@@ -1,6 +1,18 @@
 .page__content {
   box-sizing: border-box;
-  margin: auto;
-  width: calc(100vw - 96px);
+  margin: 0 48px;
   max-width: 1184px;
+  min-width: 320px;
+}
+
+@media screen and (min-width: 1280px) {
+  .page__content {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .page__content {
+    margin: 0;
+  }
 }

@@ -1,0 +1,21 @@
+.page__footer {
+  margin-block-end: 24px;
+}
+
+@media screen and (max-width: 1025px) {
+  .page__footer {
+    margin: 0 48px 19px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .page__footer {
+    margin: 0 24px 24px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .page__footer {
+    margin: 0 0 24px 16px;
+  }
+}

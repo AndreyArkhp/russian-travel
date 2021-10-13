@@ -1,5 +1,18 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-block-end: 24px;
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    flex-direction: column;
+    min-height: 80px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .footer {
+    flex-direction: column;
+    min-height: 310px;
+  }
 }

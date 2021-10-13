@@ -5,3 +5,9 @@
 .places__list-item:last-of-type {
   margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .places__list-item {
+    margin-block-end: 73px;
+  }
+}

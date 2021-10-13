@@ -4,16 +4,26 @@
   height: 28px;
   font-size: 24px;
   font-weight: normal;
+  font-style: normal;
   line-height: 28px;
   text-align: right;
   text-decoration: none;
   color: #ffffff;
   margin-inline-start: 18px;
   margin-block-end: 18px;
+  align-self: center;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1025px) {
   .header__lang-link {
+    margin-block-end: 5px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
     margin-block-end: 0;
   }
 }

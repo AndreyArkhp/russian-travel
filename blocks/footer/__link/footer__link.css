@@ -8,3 +8,11 @@
   line-height: 18px;
   color: #fff;
 }
+
+@media screen and (max-width: 560px) {
+  .footer__link {
+    margin-inline-end: 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

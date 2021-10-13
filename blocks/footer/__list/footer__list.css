@@ -4,3 +4,17 @@
   list-style: none;
   display: flex;
 }
+
+@media screen and (max-width: 720px) {
+  .footer__list {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .footer__list {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 248px;
+  }
+}

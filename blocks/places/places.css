@@ -7,3 +7,9 @@
     width: 984px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: calc(100% - (100vw / 256 - 2px) * 48);
+  }
+}

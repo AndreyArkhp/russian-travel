@@ -8,3 +8,8 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .page__intro {
+    margin-inline-start: calc((100vw / 256 - 2px) * 24);
+  }
+}
