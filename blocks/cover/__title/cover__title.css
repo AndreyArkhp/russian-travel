@@ -9,6 +9,7 @@
   margin: 0;
   margin-block-end: 32px;
   max-width: 560px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 560px) {
