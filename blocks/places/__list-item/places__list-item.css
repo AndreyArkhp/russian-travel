@@ -11,3 +11,9 @@
     margin-block-end: 73px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .places__list-item {
+    margin-block-end: 50px;
+  }
+}

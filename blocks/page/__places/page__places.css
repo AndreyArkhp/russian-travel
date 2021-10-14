@@ -1,11 +1,17 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .page__places {
-    margin: 0 calc((100% / 256 - 2px) * 24);
+    margin: 0 48px;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1000px) {
   .page__places {
-    margin-block-end: 2px;
+    margin: 0 24px 2px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__places {
+    margin: 0 0 2px;
   }
 }
