@@ -6,7 +6,14 @@
 
 @media screen and (max-width: 1023px) {
   .places__list {
-    margin: 0 auto;
+    margin: 0 24px;
     max-width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .places__list {
+    margin: 0;
+    max-width: 100%;
   }
 }
