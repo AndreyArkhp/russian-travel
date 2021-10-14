@@ -8,7 +8,7 @@
   margin-block-end: 26px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1050px) {
   .place__paragraph {
     margin-block-end: 27px;
   }
