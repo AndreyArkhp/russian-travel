@@ -3,13 +3,13 @@
   margin-block-start: 10px;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1050px) {
   .header__logo {
     margin: 0;
   }
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 700px) {
   .header__logo {
     width: 142px;
   }

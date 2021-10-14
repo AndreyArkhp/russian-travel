@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vw * 0.625);
+  min-height: calc((100vw - 96px) * 0.625);
   transition: background-color 0.3s;
 }
 
@@ -28,7 +28,25 @@
   }
 }
 
-@media screen and (max-width: 322px) {
+@media screen and (max-width: 1050px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cover__link {
+    min-height: calc(100vw * 0.625);
+  }
+}
+
+@media screen and (max-width: 350px) {
   .cover__link {
     min-height: 200px;
   }

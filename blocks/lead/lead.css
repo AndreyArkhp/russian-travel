@@ -2,13 +2,13 @@
   width: calc(100% - 200px);
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1050px) {
   .lead {
     width: calc(100% - 96px);
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
   .lead {
     width: 100%;
   }

@@ -8,7 +8,7 @@
   align-self: center;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1050px) {
   .header__lang-link-container {
     align-self: flex-end;
   }

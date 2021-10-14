@@ -2,19 +2,19 @@
   margin-inline-start: 100px;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1050px) {
   .page__intro {
     margin-inline-start: 48px;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
   .page__intro {
     margin: 0 24px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
   .page__intro {
     margin: 0 16px;
   }

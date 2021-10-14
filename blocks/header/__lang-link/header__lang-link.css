@@ -14,13 +14,13 @@
   align-self: center;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1050px) {
   .header__lang-link {
     margin-block-end: 5px;
   }
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 700px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

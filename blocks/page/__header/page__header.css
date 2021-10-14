@@ -2,19 +2,19 @@
   margin: 19px 0 17px;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1050px) {
   .page__header {
     margin: 28px 48px 48px;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
   .page__header {
     margin: 28px 24px 48px;
   }
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 700px) {
   .page__header {
     margin: 16px 16px 48px;
   }

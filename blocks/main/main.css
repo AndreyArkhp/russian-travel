@@ -6,20 +6,20 @@
   margin-block-end: 92px;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1050px) {
   .main {
     margin-block-end: 97px;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
   .main {
     row-gap: 88px;
     margin-block-end: 88px;
   }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 700px) {
   .main {
     row-gap: 64px;
     margin-block-end: 64px;

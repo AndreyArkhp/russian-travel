@@ -8,16 +8,26 @@
   margin-block-end: 26px;
 }
 
+.place__paragraph:last-of-type {
+  margin: 0;
+}
+
 @media screen and (max-width: 1050px) {
   .place__paragraph {
     margin-block-end: 27px;
   }
+  .place__paragraph:last-of-type {
+    margin: 0;
+  }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 800px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
     margin-block-end: 25px;
+  }
+  .place__paragraph:last-of-type {
+    margin: 0;
   }
 }
