@@ -7,7 +7,11 @@
 ## Используемые технологии
 
 - HTML
+  - HTML5
+  - Адаптивная верстка
 - CCS
+  - flexbox
+  - grig layout
 - БЭМ
 
-[ссылка на GitHub Pages](https://andreyarkhp.github.io/russian-travel/)
+[Путешествие по россии на gh-pages](https://andreyarkhp.github.io/russian-travel/)
