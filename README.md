@@ -10,4 +10,4 @@
 - CCS
 - БЭМ
 
-[ссылка на GitHub Pages](www.ya.ru)
+[ссылка на GitHub Pages](https://andreyarkhp.github.io/russian-travel/)
