@@ -12,6 +12,11 @@
   margin-inline-start: 18px;
   margin-block-end: 18px;
   align-self: center;
+  transition: opacity 0.1s linear;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1050px) {
